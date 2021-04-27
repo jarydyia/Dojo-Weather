@@ -1,0 +1,105 @@
+*{
+    font-family: 'Courier New', Courier, monospace
+}
+
+
+.navBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(181, 168, 255);
+    color: white;
+
+}
+
+.cities{
+    display: flex;
+    list-style: none;
+}
+
+.dojoWeather{
+    margin-right:250px;
+    margin-bottom: 10px;
+}
+
+.cities li{
+    margin: 0px 40px;
+}
+
+.currentCity{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid black;
+}
+
+.currentCity h1{
+    margin-right: 550px;
+}
+
+.cityType{
+    display: flex;
+    list-style: none;
+}
+
+.cityType Li{
+    margin-right: 10px;
+}
+
+.weekContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dailyContainer{
+    text-align: center;
+    background-color: rgb(221, 221, 221);
+    margin-right: 10px;
+    margin-top: 50px;
+    height: 400px;
+    width: 270px;
+}
+
+.weatherImage{
+    border-radius: 50%;
+    height: 225px;
+    width: 225px;
+}
+
+.numbersContainer{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.weatherNumber1{
+    color:red ;
+    margin-top: 0px;
+    margin-right: 10px;
+}
+
+.weatherNumber2{
+    color: blue;
+    margin-top: 0px;
+}
+
+.fixedBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid black;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button{
+    background-color: rgb(181, 168, 255);
+    height: 30px;
+    width: 100px;
+
+}

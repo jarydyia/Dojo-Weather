@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navBar">
+        <h1 class="dojoWeather">DojoWeather</h1>
+        <ul class="cities">
+            <li onclick="alert('Loading weather report...')">Burbank</li>
+            <li onclick="alert('Loading weather report...'))">Chicago</li>
+            <li onclick="alert('Loading weather report...'))">Dallas</li>
+        </ul>
+    </div>
+
+    <div class="currentCity">
+        <h1>San Jose</h1>
+        <ul class="cityType">
+            <li>show temperature in </li>
+            <li>
+                <select name="type" id="" onchange="pickTempType()">
+                    <option value="C">C</option>
+                    <option value="F">F</option>
+                </select>
+            </li>
+        </ul>
+    </div>
+
+    <div class="weekContainer">
+        <div class="dailyContainer">
+            <h2 class="day">Today</h2>
+            <img class="weatherImage" src="pictures/some_rain.png" alt="rain">
+            <p class="weatherType">some rain</p>
+            <div class="numbersContainer">
+                <h2 id="todayNumber1" class="weatherNumber1">23.9°</h2>
+                <h2 id="todayNumber2" class="weatherNumber2">18.3°</h2>
+            </div>
+        </div>
+
+        <div class="dailyContainer">
+            <h2 class="day">Tomorrow</h2>
+            <img class="weatherImage" src="pictures/some_sun.png" alt="sun">
+            <p class="weatherType">some sun</p>
+            <div class="numbersContainer">
+                <h2 id="tomorrowNumber1" class="weatherNumber1">26.7°</h2>
+                <h2 id="tomorrowNumber2" class="weatherNumber2">18.9°</h2>
+            </div>
+        </div>
+
+        <div class="dailyContainer">
+            <h2 class="day">Friday</h2>
+            <img class="weatherImage" src="pictures/some_clouds.png" alt="clouds">
+            <p class="weatherType">some clouds</p>
+            <div class="numbersContainer">
+                <h2 id="fridayNumber1" class="weatherNumber1">20.6°</h2>
+                <h2 id="fridayNumber2" class="weatherNumber2">16.1°</h2>
+            </div>
+        </div>
+
+        <div class="dailyContainer">
+            <h2 class="day">Saturday</h2>
+            <img class="weatherImage" src="pictures/some_sun.png" alt="sun">
+            <p class="weatherType">some sun</p>
+            <div class="numbersContainer">
+                <h2 id="saturdayNumber1" class="weatherNumber1">25.6°</h2>
+                <h2 id="saturdayNumber2" class="weatherNumber2">21.1°</h2>
+            </div>
+        </div>
+    </div>
+    <div class="fixedBar">
+        <img src="pictures/cookie.png" alt="cookie">
+        <div>
+            <h2>STOP! Cookie Time</h2>
+            <p>We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyse our traffic. </p>
+            <a href="">Read more...</a>
+        </div>
+        <button onclick="destroy()">I accept</button>
+    </div>
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
